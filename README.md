@@ -178,6 +178,7 @@ Penggunaan RESTRICT:
 Mencegah operasi database yang akan mengakibatkan pelanggaran referensi integritas data.
 Operasi akan dibatalkan dan pesan error akan ditampilkan.
 Cocok untuk situasi di mana Anda ingin memastikan bahwa data yang direferensikan tetap valid dan tidak dihapus secara tidak sengaja.
+
 Penggunaan CASCADE:
 
 Secara otomatis menghapus data yang direferensikan jika operasi database menyebabkan pelanggaran referensi integritas data.
