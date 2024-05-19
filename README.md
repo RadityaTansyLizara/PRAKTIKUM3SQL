@@ -55,9 +55,9 @@ ON DELETE RESTRICT;
 
 Berikut adalah contoh perintah untuk melakukan perubahan data pada tabel "dosen" dengan kolom "kd_ds":
 ```
-UPDATE dosen SET kd_ds = 'DS005' WHERE nama = 'Radit';
+UPDATE dosen SET kd_ds = 'DS005' WHERE nama = 'Opik';
 ```
-Perintah di atas akan mengubah nilai kolom `"kd_ds" "Radit" menjadi "DS005" pada tabel "dosen"`. Anda dapat menyesuaikan nilai yang ingin Anda ubah dan kondisi WHERE sesuai dengan kebutuhan Anda.
+Perintah di atas akan mengubah nilai kolom `"kd_ds" "Opik" menjadi "DS005" pada tabel "dosen"`. Anda dapat menyesuaikan nilai yang ingin Anda ubah dan kondisi WHERE sesuai dengan kebutuhan Anda.
 
 Pastikan untuk menjalankan perintah dengan hati-hati dan memastikan bahwa perubahan data yang Anda lakukan sesuai dengan kebutuhan dan kebijakan yang berlaku dalam basis data Anda.
 
@@ -103,10 +103,6 @@ Setelah menjalankan perintah di atas, Anda dapat kembali mencoba menghapus recor
 ```
 DELETE FROM dosen WHERE kd_ds = 'DS003';
 ```
-***0utput :***
-
-GAMBAR
-
 Perintah ini akan menghapus record dengan nilai "DS003" dari tabel "dosen", dan karena menggunakan opsi ON DELETE SET NULL, nilai kolom "kd_ds" dalam tabel "mahasiswa" yang mengacu pada record yang dihapus akan diatur menjadi NULL.
 
 # Evaluasi dan Pertanyaan
@@ -165,7 +161,7 @@ ADD CONSTRAINT <nama_constraint_baru> FOREIGN KEY (field) REFERENCES <table_refe
 - Mengubah data
 ```
 UPDATE dosen
-SET kd_ds = 'DS006' WHERE nama = 'Haha Hihi';
+SET kd_ds = 'DS006' WHERE nama = 'Halo';
 ```
 
 - Menghapus data
