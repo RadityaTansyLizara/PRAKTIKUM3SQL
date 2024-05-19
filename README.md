@@ -170,3 +170,26 @@ DELETE FROM dosen WHERE nim = 'DS003';
 ```
 
 ### Apa bedanya penggunaan RESTRICT dan penggunaan CASCADE
+
+Perbedaan utama antara penggunaan RESTRICT dan CASCADE adalah pada cara mereka menangani operasi database yang dapat menyebabkan pelanggaran referensi integritas data.
+
+Penggunaan RESTRICT:
+
+Mencegah operasi database yang akan mengakibatkan pelanggaran referensi integritas data.
+Operasi akan dibatalkan dan pesan error akan ditampilkan.
+Cocok untuk situasi di mana Anda ingin memastikan bahwa data yang direferensikan tetap valid dan tidak dihapus secara tidak sengaja.
+Penggunaan CASCADE:
+
+Secara otomatis menghapus data yang direferensikan jika operasi database menyebabkan pelanggaran referensi integritas data.
+Digunakan ketika Anda ingin memastikan konsistensi data dan bersedia menghapus data yang direferensikan jika diperlukan.
+Perlu berhati-hati saat menggunakan CASCADE karena dapat menyebabkan hilangnya data yang tidak diinginkan.
+Contoh:
+
+Misalkan Anda memiliki dua tabel: Customers dan Orders. Tabel Orders memiliki kolom customer_id yang mereferensikan kolom id pada tabel Customers.
+
+### Berikan Kesimpulan anda !
+
+Constraint atau batasan dalam SQL adalah aturan yang digunakan untuk membatasi nilai data yang dapat disimpan dalam tabel database. Constraint membantu memastikan integritas dan konsistensi data dengan menegakkan aturan bisnis dan mencegah data yang tidak valid masuk ke dalam database.
+RESTRICT adalah kata kunci yang digunakan dalam SQL untuk mencegah operasi database yang dapat menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
+Kesimpulan tentang CASCADE
+CASCADE adalah kata kunci yang digunakan dalam SQL untuk secara otomatis menghapus data yang direferensikan ketika operasi database menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
