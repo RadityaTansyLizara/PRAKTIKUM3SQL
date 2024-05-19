@@ -195,3 +195,7 @@ Misalkan Anda memiliki dua tabel: Customers dan Orders. Tabel Orders memiliki ko
 - RESTRICT adalah kata kunci yang digunakan dalam SQL untuk mencegah operasi database yang dapat menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
 
 - CASCADE adalah kata kunci yang digunakan dalam SQL untuk secara otomatis menghapus data yang direferensikan ketika operasi database menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
+
+
+### Link Praktikum
+https://drive.google.com/drive/u/0/folders/1lWj0jaDHP56jUMIhKf77Jgy7rD4nk8FG?lfhs=2
