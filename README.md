@@ -15,7 +15,7 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 ('DS003', 'Arsy'),
 ('DS004', 'Eva'),
 ('DS005', 'Opik'),
-('DS006', 'Caca')
+('DS006', 'Caca');
 ```
 
 ![Screenshot (168)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/4c256128-68ff-40ab-a5c9-23e66d0b3f4f)
