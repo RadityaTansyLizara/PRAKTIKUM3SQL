@@ -16,11 +16,20 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 ('DS004', 'Radit'),
 ('DS005', 'Uyun');
 ```
-GAMBAR
+
+![Screenshot (168)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/4c256128-68ff-40ab-a5c9-23e66d0b3f4f)
 
 ***Output :***
 
-GAMBAR
+![Screenshot (167 OUTPUT)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/8ae85c84-a455-4e69-87fb-b452c55ae2bb)
+
+2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
+```
+DELETE FROM dosen WHERE kd_ds = 'DS005';
+```
+***Output :***
+
+![Screenshot (167 2)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/db3f0aee-92e4-4370-957f-749806b36ea3)
 
 3. Ubah mode menjadi **ON UPDATE CASCADE ON DELETE RESTRICT** 
 
@@ -37,7 +46,8 @@ ON DELETE RESTRICT;
 ```
 ***Output :***
 
-GAMBAR
+![Screenshot (165)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/f5d8f20b-09e8-453d-bb86-448009804fa9)
+
 
 4. Lakukan perubahan data pada tabel dosen (kd_ds)
 
@@ -51,7 +61,8 @@ Pastikan untuk menjalankan perintah dengan hati-hati dan memastikan bahwa peruba
 
 ***Output :***
 
-GAMBAR
+![Screenshot (165)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/ccadf860-ec96-4f2b-8b6c-9e30bc37bc20)
+
 
 5. Lakukan penghapusan data pada tabel dosen
 
@@ -62,7 +73,8 @@ DELETE FROM Dosen WHERE kd_ds = 'DS006';
 
 ***Output :***
 
-GABAR
+![Screenshot (167)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/73e2d170-65a3-4c62-a471-6d37c24eee60)
+
 
 6. Ubah mode menjadi **ON UPDATE CASCADE ON DELETE SET NULL**
 ```
@@ -78,7 +90,8 @@ ON DELETE SET NULL;
 ```
 ***Output :***
 
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/ccffc3c1-c294-4043-8370-034989621f6b)
+
 
 Dengan perubahan di atas, ketika Anda menghapus record dari tabel "dosen" yang memiliki referensi di tabel "mahasiswa", nilai kolom "kd_ds" dalam tabel "mahasiswa" yang mengacu pada record yang dihapus akan diatur menjadi NULL.
 
