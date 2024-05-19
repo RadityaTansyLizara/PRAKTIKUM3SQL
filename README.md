@@ -22,7 +22,8 @@ INSERT INTO dosen (kd_ds, nama) VALUES
 
 ***Output :***
 
-![Screenshot (167 OUTPUT)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/8ae85c84-a455-4e69-87fb-b452c55ae2bb)
+![Screenshot (169)](https://github.com/RadityaTansyLizara/PRAKTIKUM3SQL/assets/147571863/c984b31f-6fef-4873-b63c-101ebca70e45)
+
 
 2. Hapus satu record data pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
 ```
