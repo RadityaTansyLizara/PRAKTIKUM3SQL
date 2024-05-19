@@ -190,7 +190,8 @@ Misalkan Anda memiliki dua tabel: Customers dan Orders. Tabel Orders memiliki ko
 
 ### Berikan Kesimpulan anda !
 
-Constraint atau batasan dalam SQL adalah aturan yang digunakan untuk membatasi nilai data yang dapat disimpan dalam tabel database. Constraint membantu memastikan integritas dan konsistensi data dengan menegakkan aturan bisnis dan mencegah data yang tidak valid masuk ke dalam database.
-RESTRICT adalah kata kunci yang digunakan dalam SQL untuk mencegah operasi database yang dapat menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
-Kesimpulan tentang CASCADE
-CASCADE adalah kata kunci yang digunakan dalam SQL untuk secara otomatis menghapus data yang direferensikan ketika operasi database menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
+- Constraint atau batasan dalam SQL adalah aturan yang digunakan untuk membatasi nilai data yang dapat disimpan dalam tabel database. Constraint membantu memastikan integritas dan konsistensi data dengan menegakkan aturan bisnis dan mencegah data yang tidak valid masuk ke dalam database.
+
+- RESTRICT adalah kata kunci yang digunakan dalam SQL untuk mencegah operasi database yang dapat menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
+
+- CASCADE adalah kata kunci yang digunakan dalam SQL untuk secara otomatis menghapus data yang direferensikan ketika operasi database menyebabkan pelanggaran integritas data referensial. Integritas data referensial memastikan bahwa data dalam tabel yang berbeda saling terkait dengan benar.
